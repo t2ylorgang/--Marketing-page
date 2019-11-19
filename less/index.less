@@ -4,15 +4,19 @@
     margin: 0;
 }
 
+body {
+    font-size: 62.5%;
+}
+
 .btn {
     background-color: #248ea9;
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 1em 1.5em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1.4em;
     border-radius: 8px;
     width: 20%;
     align-self: center;
@@ -31,6 +35,14 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 5em;
+
+        h3 {
+            font-size: 1.8em;
+
+            @media (max-width: 1100px) {
+                text-align: center;
+            }
+        }
     }
 
     .navbar {
@@ -41,6 +53,10 @@
         height: 4em;
         width: 65%;
         margin: auto;
+
+        @media (max-width: 1100px) {
+            width: 96%;
+        }
     
         li {
             list-style: none;
@@ -52,6 +68,7 @@
                 border: 2px solid #248ea9;
                 border-radius: 8px;
                 padding: 0.4em;
+                font-size: 1.4em;
             }
     
             a:hover {
@@ -68,6 +85,14 @@
         background-color: white;
         padding: 1.5em;
 
+        @media (max-width: 1100px) {
+            width: 96%;
+        }
+
+        h2 {
+            font-size: 2.5em;
+        }
+
         .helping-daily-box {
             display: flex;
             flex-direction: column;
@@ -75,13 +100,14 @@
 
             .helping-daily-text {
                 margin-bottom: 1.5em;
+                font-size: 1.6em;
             }
 
             .btn {
                 background-color: #248ea9;
                 border: none;
                 color: white;
-                padding: 10px 15px;
+                padding: 1em 1.5em;
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
@@ -89,6 +115,10 @@
                 border-radius: 8px;
                 width: 20%;
                 align-self: center;
+
+                @media (max-width: 1100px) {
+                    width: 35%;
+                }
             }
 
             .btn:hover {
@@ -101,12 +131,20 @@
                 height: auto;
                 align-self: center;
                 margin-bottom: 1.5em;
+
+                @media (max-width: 1100px) {
+                    width: 65%;
+                }
             }
         }
         .showcase {
             display: flex;
             justify-content: center;
             padding: 2em;
+
+            @media (max-width: 1100px) {
+                flex-direction: column;
+            }
 
             .growth {
                 display: flex;
@@ -118,11 +156,16 @@
                 p {
                     border: 2px solid black;
                     padding: 1em;
-                    width: 275px;
+                    font-size: 1.5em;
+
+                    @media (max-width: 1100px) {
+                        width: 80%;
+                    }
                 }
 
                 h3 {
                     margin-bottom: 1.5em;
+                    font-size: 2em;
                 }
             }
             .network {
@@ -135,11 +178,16 @@
                 p {
                     border: 2px solid black;
                     padding: 1em;
-                    width: 275px;
+                    font-size: 1.5em;
+                    
+                    @media (max-width: 1100px) {
+                        width: 80%;
+                    }
                 }
 
                 h3 {
                     margin-bottom: 1.5em;
+                    font-size: 2em;
                 }
             }
             .application {
@@ -152,11 +200,16 @@
                 p {
                     border: 2px dashed black;
                     padding: 1em;
-                    width: 275px;
+                    font-size: 1.5em;
+
+                    @media (max-width: 1100px) {
+                        width: 80%;
+                    }
                 }
 
                 h3 {
                     margin-bottom: 1.5em;
+                    font-size: 2em;
                 }
             }
         }
@@ -164,6 +217,7 @@
         p {
             text-align: center;
             margin-top: 1em;
+            font-size: 1.2em;
         }
     }
 }
