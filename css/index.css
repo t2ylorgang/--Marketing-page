@@ -352,18 +352,20 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2em;
+  text-align: center;
 }
 .container .main .helping-daily-box form {
-  justify-content: center;
   align-self: center;
   background-color: white;
   border: none;
   color: white;
+  padding: 1em 1.5em;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 14px;
   border-radius: 8px;
   width: 35%;
-  display: inline-block;
 }
 .container .main .helping-daily-box .helping-daily-text {
   margin-bottom: 2em;
@@ -385,31 +387,14 @@ body {
   justify-content: center;
   align-self: center;
 }
-@media (max-width: 1400px) {
+@media (max-width: 824px) {
   .container .main .helping-daily-box .btn {
-    margin-left: 22rem;
+    width: 70%;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1386px) {
   .container .main .helping-daily-box .btn {
-    margin-left: 19rem;
-  }
-}
-@media (max-width: 800px) {
-  .container .main .helping-daily-box .btn {
-    margin-left: 13rem;
-  }
-}
-@media (max-width: 500px) {
-  .container .main .helping-daily-box .btn {
-    margin-left: 6rem;
-    width: 40%;
-  }
-}
-@media (max-width: 400px) {
-  .container .main .helping-daily-box .btn {
-    margin-left: 3rem;
-    width: 60%;
+    width: 70%;
   }
 }
 .container .main .helping-daily-box .btn:hover {
