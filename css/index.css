@@ -387,12 +387,12 @@ body {
   justify-content: center;
   align-self: center;
 }
-@media (max-width: 824px) {
+@media (max-width: 45.1875rem) {
   .container .main .helping-daily-box .btn {
-    width: 70%;
+    width: 10rem;
   }
 }
-@media (max-width: 1386px) {
+@media (max-width: 1182px) {
   .container .main .helping-daily-box .btn {
     width: 70%;
   }
