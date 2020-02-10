@@ -1,5 +1,3 @@
-This is the Landing Page or Marketing page for Build-Week-Mentor-Me-2019.
+This is the Landing Page or Marketing page for BW_ride_for_life_mikis.
 
-Line 6 is the link to the deployed website "Mentor Me":
-
-https://fervent-villani-fde60d.netlify.com
+https://peaceful-roentgen-255f0d.netlify.com/index.html
