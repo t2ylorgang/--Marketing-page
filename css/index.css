@@ -509,6 +509,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+h1 {
+  font-size: xx-large;
+  padding-top: 3rem;
+}
+h2 {
+  font-size: x-large;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+li {
+  font-size: 0.85rem;
+  padding: 0.3rem;
+}
+hr {
+  padding: 0.2rem;
+}
 .form {
   background-color: white;
   padding: 1.5em;
